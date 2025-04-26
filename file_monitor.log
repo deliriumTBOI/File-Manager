@@ -1,0 +1,278 @@
+[2025-04-23 22:02:13] [0] Добавлен файл для мониторинга: src/test1.txt
+[2025-04-23 22:02:13] [0] Добавлен файл для мониторинга: src/test2.txt
+[2025-04-23 22:02:13] [0] Добавлен файл для мониторинга: src/test3.txt
+[2025-04-23 22:02:13] [0] Добавлен файл для мониторинга: src/test_dir/subdir/test5.txt
+[2025-04-23 22:02:13] [0] Добавлен файл для мониторинга: src/test_dir/test4.txt
+[2025-04-23 22:02:13] [0] Начало мониторинга 5 файлов с интервалом 5 секунд...
+[2025-04-23 22:02:13] [0] Добавлено наблюдение за директорией: src
+[2025-04-23 22:02:13] [0] Добавлено наблюдение за директорией: src
+[2025-04-23 22:02:13] [0] Добавлено наблюдение за директорией: src
+[2025-04-23 22:02:13] [0] Добавлено наблюдение за директорией: src/test_dir/subdir
+[2025-04-23 22:02:13] [0] Добавлено наблюдение за директорией: src/test_dir
+[2025-04-23 22:02:13] [0] Инициализация inotify успешна
+[2025-04-23 22:02:13] [0] Поток inotify запущен
+[2025-04-23 22:02:13] [0] Поток мониторинга #3 запущен
+[2025-04-23 22:02:13] [0] Поток мониторинга #2 запущен
+[2025-04-23 22:02:13] [0] Поток мониторинга #0 запущен
+[2025-04-23 22:02:13] [0] Поток мониторинга #1 запущен
+[2025-04-23 22:02:15] [1] Файл изменен: src/test1.txt
+[2025-04-23 22:02:15] [0]   Старый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-23 22:02:15] [0]   Новый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-23 22:02:15] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-23 22:02:15] [0]   Старый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-23 22:02:15] [0]   Новый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-23 22:06:21] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:21] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:21] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:21] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:21] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:23] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:23] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:23] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:23] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:23] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:28] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:28] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:28] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:28] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:28] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:33] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:33] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:33] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:33] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:33] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:38] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:38] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:38] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:38] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:38] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:43] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:43] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:43] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:43] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:43] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:48] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:48] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:48] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:48] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:48] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:53] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:53] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:53] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:53] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:53] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:06:58] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:06:58] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:06:58] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:06:58] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:06:58] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:03] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:03] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:03] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:03] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:03] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:08] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:08] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:08] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:08] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:08] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:13] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:13] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:13] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:13] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:13] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:18] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:18] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:18] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:18] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:18] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:23] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:23] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:23] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:23] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:23] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:28] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:28] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:28] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:28] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:28] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:33] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:33] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:33] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:33] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:33] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:38] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:38] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:38] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:38] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:38] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:43] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:43] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:43] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:43] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:43] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:48] [1] Failed to get file stats: src/test1.txt - No such file or directory
+[2025-04-23 22:07:48] [1] Failed to get file stats: src/test_dir/test4.txt - No such file or directory
+[2025-04-23 22:07:48] [1] Failed to get file stats: src/test_dir/subdir/test5.txt - No such file or directory
+[2025-04-23 22:07:48] [1] Failed to get file stats: src/test3.txt - No such file or directory
+[2025-04-23 22:07:48] [1] Failed to get file stats: src/test2.txt - No such file or directory
+[2025-04-23 22:07:51] [1] Файл изменен: src/test1.txt
+[2025-04-23 22:07:51] [0]   Старый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-23 22:07:51] [0]   Новый хеш: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2025-04-23 22:07:51] [1] Файл изменен: src/test1.txt
+[2025-04-23 22:07:51] [0]   Старый хеш: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2025-04-23 22:07:51] [0]   Новый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-23 22:07:51] [1] Файл изменен: src/test3.txt
+[2025-04-23 22:07:51] [0]   Старый хеш: 5e3b3ba16fbeae435245542d4796bc5a21bf579578d4a7bb3ef1df7b29692b99
+[2025-04-23 22:07:51] [0]   Новый хеш: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2025-04-23 22:07:51] [1] Файл изменен: src/test3.txt
+[2025-04-23 22:07:51] [0]   Старый хеш: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2025-04-23 22:07:51] [0]   Новый хеш: 5e3b3ba16fbeae435245542d4796bc5a21bf579578d4a7bb3ef1df7b29692b99
+[2025-04-23 22:07:51] [0] Добавлен файл для мониторинга: src/test1.txt
+[2025-04-23 22:07:51] [0] Добавлен файл для мониторинга: src/test2.txt
+[2025-04-23 22:07:51] [0] Добавлен файл для мониторинга: src/test3.txt
+[2025-04-23 22:07:51] [0] Добавлен файл для мониторинга: src/test_dir/subdir/test5.txt
+[2025-04-23 22:07:51] [0] Добавлен файл для мониторинга: src/test_dir/test4.txt
+[2025-04-23 22:07:51] [0] Начало мониторинга 5 файлов с интервалом 5 секунд...
+[2025-04-23 22:07:51] [0] Добавлено наблюдение за директорией: src
+[2025-04-23 22:07:51] [0] Добавлено наблюдение за директорией: src
+[2025-04-23 22:07:51] [0] Добавлено наблюдение за директорией: src
+[2025-04-23 22:07:51] [0] Добавлено наблюдение за директорией: src/test_dir/subdir
+[2025-04-23 22:07:51] [0] Добавлено наблюдение за директорией: src/test_dir
+[2025-04-23 22:07:51] [0] Инициализация inotify успешна
+[2025-04-23 22:07:51] [0] Поток inotify запущен
+[2025-04-23 22:07:51] [0] Поток мониторинга #0 запущен
+[2025-04-23 22:07:51] [0] Поток мониторинга #1 запущен
+[2025-04-23 22:07:51] [0] Поток мониторинга #2 запущен
+[2025-04-23 22:07:51] [0] Поток мониторинга #3 запущен
+[2025-04-23 22:07:53] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-23 22:07:53] [0]   Старый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-23 22:07:53] [0]   Новый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-23 22:07:53] [1] Файл изменен: src/test1.txt
+[2025-04-23 22:07:53] [1] Файл изменен: src/test1.txt
+[2025-04-23 22:07:53] [0]   Старый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-23 22:07:53] [0]   Старый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-23 22:07:53] [0]   Новый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-23 22:07:53] [0]   Новый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-23 22:07:53] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-23 22:07:53] [0]   Старый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-23 22:07:53] [0]   Новый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-23 22:07:58] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-23 22:07:58] [0]   Старый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-23 22:07:58] [0]   Новый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-23 22:11:11] [0] Получен сигнал завершения (15)
+[2025-04-23 22:11:11] [0] Получен сигнал завершения (15)
+[2025-04-23 22:11:11] [0] Поток мониторинга #1 завершен
+[2025-04-23 22:11:11] [0] Поток мониторинга #0 завершен
+[2025-04-23 22:11:11] [0] Поток мониторинга #2 завершен
+[2025-04-23 22:11:11] [0] Поток мониторинга #3 завершен
+[2025-04-23 22:11:13] [0] Поток мониторинга #2 завершен
+[2025-04-23 22:11:13] [0] Поток мониторинга #0 завершен
+[2025-04-23 22:11:13] [0] Поток мониторинга #1 завершен
+[2025-04-23 22:11:13] [0] Поток мониторинга #3 завершен
+[2025-04-24 11:03:35] [0] Добавлен файл для мониторинга: src/test1.txt
+[2025-04-24 11:03:35] [0] Добавлен файл для мониторинга: src/test2.txt
+[2025-04-24 11:03:35] [0] Добавлен файл для мониторинга: src/test3.txt
+[2025-04-24 11:03:35] [0] Добавлен файл для мониторинга: src/test_dir/subdir/test5.txt
+[2025-04-24 11:03:35] [0] Добавлен файл для мониторинга: src/test_dir/subdir/test6.txt
+[2025-04-24 11:03:35] [0] Добавлен файл для мониторинга: src/test_dir/test4.txt
+[2025-04-24 11:03:35] [0] Начало мониторинга 6 файлов с интервалом 5 секунд...
+[2025-04-24 11:03:35] [0] Добавлено наблюдение за директорией: src
+[2025-04-24 11:03:35] [0] Добавлено наблюдение за директорией: src
+[2025-04-24 11:03:35] [0] Добавлено наблюдение за директорией: src
+[2025-04-24 11:03:35] [0] Добавлено наблюдение за директорией: src/test_dir/subdir
+[2025-04-24 11:03:35] [0] Добавлено наблюдение за директорией: src/test_dir/subdir
+[2025-04-24 11:03:35] [0] Добавлено наблюдение за директорией: src/test_dir
+[2025-04-24 11:03:35] [0] Инициализация inotify успешна
+[2025-04-24 11:03:35] [0] Поток inotify запущен
+[2025-04-24 11:03:35] [0] Поток мониторинга #1 запущен
+[2025-04-24 11:03:35] [0] Поток мониторинга #0 запущен
+[2025-04-24 11:03:35] [0] Поток мониторинга #2 запущен
+[2025-04-24 11:03:35] [0] Поток мониторинга #3 запущен
+[2025-04-24 11:03:37] [1] Файл изменен: src/test1.txt
+[2025-04-24 11:03:37] [0]   Старый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-24 11:03:37] [0]   Новый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-24 11:03:37] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-24 11:03:37] [0]   Старый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-24 11:03:37] [0]   Новый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-24 11:13:04] [0] Получен сигнал завершения (15)
+[2025-04-24 11:13:05] [0] Поток мониторинга #3 завершен
+[2025-04-24 11:13:05] [0] Поток мониторинга #2 завершен
+[2025-04-24 11:13:05] [0] Поток мониторинга #0 завершен
+[2025-04-24 11:13:05] [0] Поток мониторинга #1 завершен
+[2025-04-25 10:03:22] [0] Добавлен файл для мониторинга: src/test1.txt
+[2025-04-25 10:03:22] [0] Добавлен файл для мониторинга: src/test2.txt
+[2025-04-25 10:03:22] [0] Добавлен файл для мониторинга: src/test3.txt
+[2025-04-25 10:03:22] [0] Добавлен файл для мониторинга: src/test_dir/subdir/test5.txt
+[2025-04-25 10:03:22] [0] Добавлен файл для мониторинга: src/test_dir/test4.txt
+[2025-04-25 10:03:22] [0] Запущен мониторинг 5 файлов
+[2025-04-25 10:03:22] [0] Добавлено наблюдение за директорией (только текущие файлы): src
+[2025-04-25 10:03:22] [0] Добавлено наблюдение за директорией (только текущие файлы): src/test_dir/subdir
+[2025-04-25 10:03:22] [0] Добавлено наблюдение за директорией (только текущие файлы): src/test_dir
+[2025-04-25 10:03:22] [0] Поток мониторинга #0 запущен
+[2025-04-25 10:03:22] [0] Поток мониторинга #1 запущен
+[2025-04-25 10:03:22] [0] Поток мониторинга #2 запущен
+[2025-04-25 10:03:22] [0] Поток мониторинга #3 запущен
+[2025-04-25 10:03:22] [0] Поток inotify запущен
+[2025-04-25 10:03:24] [1] Файл изменен: src/test1.txt
+[2025-04-25 10:03:24] [0]   Старый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-25 10:03:24] [0]   Новый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-25 10:03:24] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-25 10:03:24] [0]   Старый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-25 10:03:24] [0]   Новый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-25 11:22:58] [0] Получен сигнал завершения (15)
+[2025-04-25 11:23:03] [0] Поток мониторинга #3 завершен
+[2025-04-25 11:23:03] [0] Поток мониторинга #1 завершен
+[2025-04-25 11:23:03] [0] Поток мониторинга #0 завершен
+[2025-04-25 11:23:03] [0] Поток мониторинга #2 завершен
+[2025-04-25 15:49:02] [0] Добавлен файл для мониторинга: src/test1.txt
+[2025-04-25 15:49:02] [0] Добавлен файл для мониторинга: src/test2.txt
+[2025-04-25 15:49:02] [0] Добавлен файл для мониторинга: src/test3.txt
+[2025-04-25 15:49:02] [0] Добавлен файл для мониторинга: src/test_dir/subdir/test5.txt
+[2025-04-25 15:49:02] [0] Добавлен файл для мониторинга: src/test_dir/test4.txt
+[2025-04-25 15:49:02] [0] Запущен мониторинг 5 файлов
+[2025-04-25 15:49:02] [0] Добавлено наблюдение за директорией (только текущие файлы): src
+[2025-04-25 15:49:02] [0] Добавлено наблюдение за директорией (только текущие файлы): src/test_dir/subdir
+[2025-04-25 15:49:02] [0] Добавлено наблюдение за директорией (только текущие файлы): src/test_dir
+[2025-04-25 15:49:02] [0] Поток мониторинга #0 запущен
+[2025-04-25 15:49:02] [0] Поток мониторинга #2 запущен
+[2025-04-25 15:49:02] [0] Поток мониторинга #1 запущен
+[2025-04-25 15:49:02] [0] Поток inotify запущен
+[2025-04-25 15:49:02] [0] Поток мониторинга #3 запущен
+[2025-04-25 15:49:04] [1] Файл изменен: src/test1.txt
+[2025-04-25 15:49:04] [0]   Старый хеш: f02de6e9af12c0ccbe7e5c9722ab74bf80865532738353067545ffffa0aeedc3
+[2025-04-25 15:49:04] [0]   Новый хеш: bea6104b19b175d5846ecf6b50da72db5f4d7b758b9884446d3ce75cdb1f96c4
+[2025-04-25 15:49:04] [1] Файл изменен: src/test_dir/test4.txt
+[2025-04-25 15:49:04] [0]   Старый хеш: 06244f3ac52f9334790385d9879c048ee0a4ef264227865008a3db05ec2d9417
+[2025-04-25 15:49:04] [0]   Новый хеш: d7c8a5daceaaf815e5c951f4a8794a433c92103b0006d018bc1233554e7996df
+[2025-04-25 16:14:14] [0] Получен сигнал завершения (15)
+[2025-04-25 16:14:14] [0] Программа завершена
+[2025-04-26 11:19:37] [2] Failed to get stats: src/test1.txt - No such file or directory
+[2025-04-26 11:19:37] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 11:19:37] [2] No files to monitor
+[2025-04-26 11:20:20] [2] Failed to get stats: src/test1.txt - No such file or directory
+[2025-04-26 11:20:20] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 11:20:20] [2] No files to monitor
+[2025-04-26 11:20:32] [2] Failed to get stats: src/test1.txt - No such file or directory
+[2025-04-26 11:20:32] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 11:20:32] [2] No files to monitor
+[2025-04-26 11:21:00] [2] Failed to get stats: src/test1.txt - No such file or directory
+[2025-04-26 11:21:00] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 11:21:00] [2] No files to monitor
+[2025-04-26 11:21:32] [2] Failed to get stats: est1.txt - No such file or directory
+[2025-04-26 11:21:32] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 11:21:32] [2] No files to monitor
+[2025-04-26 11:21:53] [0] Добавлен файл для мониторинга: est1.txt
+[2025-04-26 11:21:53] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 11:21:53] [0] Запущен мониторинг 1 файлов
+[2025-04-26 11:21:53] [0] Добавлено наблюдение за директорией (только текущие файлы): .
+[2025-04-26 11:21:53] [0] Поток мониторинга #1 запущен
+[2025-04-26 11:21:53] [0] Поток мониторинга #3 запущен
+[2025-04-26 11:21:53] [0] Поток мониторинга #2 запущен
+[2025-04-26 11:21:53] [0] Поток мониторинга #0 запущен
+[2025-04-26 11:21:53] [0] Поток inotify запущен
+[2025-04-26 11:22:08] [0] Получен сигнал завершения (2)
+[2025-04-26 11:22:09] [0] Программа завершена
+[2025-04-26 13:33:03] [2] Failed to get stats: est1.txt - No such file or directory
+[2025-04-26 13:33:03] [2] Failed to get stats: src/test2.txt - No such file or directory
+[2025-04-26 13:33:03] [2] No files to monitor
